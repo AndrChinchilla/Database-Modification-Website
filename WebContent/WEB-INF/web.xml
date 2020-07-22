@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+ 
+<servlet>
+	<servlet-name>Maintenance</servlet-name>
+	<servlet-class>com.assignment5.servlet.MaintenanceServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AddBook</servlet-name>
+	<servlet-class>com.assignment5.servlet.AddBookServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>DeleteBook</servlet-name>
+	<servlet-class>com.assignment5.servlet.DeleteBookServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>UpdateBook</servlet-name>
+	<servlet-class>com.assignment5.servlet.UpdateBookServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AddPublisher</servlet-name>
+	<servlet-class>com.assignment5.servlet.AddPublisherServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeletePublisher</servlet-name>
+	<servlet-class>com.assignment5.servlet.DeletePublisherServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdatePublisher</servlet-name>
+	<servlet-class>com.assignment5.servlet.UpdatePublisherServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AddAuthor</servlet-name>
+	<servlet-class>com.assignment5.servlet.AddAuthorServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteAuthor</servlet-name>
+	<servlet-class>com.assignment5.servlet.DeleteAuthorServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateAuthor</servlet-name>
+	<servlet-class>com.assignment5.servlet.UpdateAuthorServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AddCopy</servlet-name>
+	<servlet-class>com.assignment5.servlet.AddCopyServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>DeleteCopy</servlet-name>
+	<servlet-class>com.assignment5.servlet.DeleteCopyServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateCopy</servlet-name>
+	<servlet-class>com.assignment5.servlet.UpdateCopyServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>Searcher</servlet-name>
+	<servlet-class>com.assignment5.servlet.SearchServlet</servlet-class>
+</servlet>
+  
+</web-app>
